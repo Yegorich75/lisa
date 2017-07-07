@@ -8846,7 +8846,8 @@ body {
           flex: auto; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  display: inline-block; }
   a:hover {
     text-decoration: none; }
 
@@ -8871,7 +8872,17 @@ button, .btn {
   padding: 15px 38px 14px;
   border: 1px solid #808080;
   background: #fff;
-  color: #141414; }
+  font-size: 12px;
+  font-weight: 500;
+  color: #141414;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease; }
+  .btn-primary:hover {
+    color: #839cab;
+    background: #e8edf3;
+    border: 1px solid #839cab; }
 
 .main, .banner, .collection, .tabs, .articles {
   width: 100%;
@@ -8963,8 +8974,7 @@ button, .btn {
     width: 100%; }
 
 .grid__link {
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .grid__name {
   text-align: center;
