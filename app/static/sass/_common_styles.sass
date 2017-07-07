@@ -1,0 +1,143 @@
+* 
+	box-sizing: border-box
+
+html 
+	min-height: 100%
+	display: flex
+	flex-direction: column
+
+body 
+	margin: 0
+	padding: 0
+	display: flex
+	flex-direction: column
+	flex: auto
+
+a 
+	text-decoration: none
+	&:hover 
+		text-decoration: none
+
+img 
+	border: 0
+
+h1 
+	margin-top: 0
+
+button, .btn 
+    background: none
+    border: none
+    display: inline-block
+    padding: 0
+    outline: none
+    outline-offset: 0
+    cursor: pointer
+    transition: 0.3s all ease
+
+.btn-primary
+	padding: 15px 38px 14px
+	border: 1px solid #808080
+	background: #fff
+	color: $mainLinkColor
+
+.main, .banner, .collection, .tabs, .articles
+	width: 100%
+	min-width: 320px
+	max-width: 1140px
+	margin: auto
+	flex: auto
+	box-sizing: border-box
+
+.tabs
+	margin-top: 40px
+	text-align: center
+
+.module-tab
+	.nav-tabs
+		display: flex
+		font-size: 14px
+		text-transform: uppercase
+		font-weight: 700
+		letter-spacing: 1.5px
+		margin-bottom: 35px
+		border: none
+		justify-content: center
+		&::before
+			position: absolute
+			display: inline-block
+			top: 10px
+			right: 100%
+			width: 600px
+			height: 1px
+			content: ''
+		li
+			padding: 0 20px
+			border: none
+			&.active
+				a
+					color: #737373
+					cursor: pointer
+			a
+				padding: 0
+				margin: 0
+				border: none
+				text-decoration: none
+				color: #000
+				&:hover,
+				&:active,
+				&:focus
+					color: #737373
+					border: none
+					cursor: pointer
+					background-color: transparent
+
+.grid
+	display: flex
+	justify-content: space-between
+	flex-wrap: wrap
+
+.grid__item
+	margin-bottom: 30px
+	flex: 0 1 calc(33.33% - 30px * 2/3)
+
+.tabs__item
+	margin-bottom: 30px
+	flex: 0 1 calc(25% - 30px * 3/4)
+
+.grid__img
+	margin-bottom: 30px
+	img 
+		width: 100%
+
+.grid__link
+	width: 100%
+	height: 100%
+
+.grid__name
+	text-align: center
+	font-size: 14px
+	text-transform: uppercase
+	letter-spacing: 1.5px
+	a
+		text-decoration: none
+		color: #141414
+		font-weight: 500
+		&:hover
+			color: $mainLinkColorHover
+
+.block-right
+	display: inline-block
+	&__item
+
+.carousel
+	width: 100%
+	
+.top-carousel
+	padding: 0
+
+
+
+
+
+
+

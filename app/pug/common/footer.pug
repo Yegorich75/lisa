@@ -1,0 +1,34 @@
+footer.footer
+    +b.footer-inner
+        +e.category.footer-block
+            h4 Категории
+            ul.sf-menu
+                li 
+                    a(href="#") Dresses for her
+                li 
+                    a(href="#") Suits for him
+                li 
+                    a(href="#") Brands
+                li 
+                    a(href="#") Accessories for her
+                li 
+                    a(href="#") Accessories for him
+                li 
+                    a(href="#") Card Invitations
+        +e.info.footer-block
+            h4 Информация
+            ul.sf-menu
+                li 
+                    a(href="#")
+        +e.account.footer-block
+            h4 Учетная запись
+            ul.sf-menu
+                li 
+                    a(href="#")
+        +e.subscribe.footer-block
+            h4 Подписка
+            .newsletter
+                .login-form
+                    label.control-label(for="input-newsletter-email") 
+                    input#input-newsletter-email.form-control(name="newsletter_email", value="", placeholder="", type="text")
+                button#newsletter-button.btn-primary(data-toggle="tooltip", title="", data-original-title="Подписаться") Подписаться

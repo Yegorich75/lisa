@@ -1,0 +1,27 @@
+header.header
+	.header-top
+		include menu
+		address
+			p 24/7  customer support service - 
+				a(href="callto:8001234567") (800) 123-4567
+	.header-bottom
+		a.logo(href="#") Logo
+			img(src="../../static/img/general/logo-185x35.png")
+		+b.block-right
+			+e.item.megamenu.toggle-wrap
+				h4.h4
+					a.toggle.fa.fa-bars
+			+e.item.search
+				a.top-search
+					i.fa.fa-search
+			+e.item.box-cart
+				#cart.cart.toggle-wrap
+					button.toggle(type='button')
+						strong Корзина:
+						span#cart-total.cart-total Товаров 0 ($0.00)
+						span#cart-total2.cart-total2 0
+					ul.toggle-cont
+
+		
+
+

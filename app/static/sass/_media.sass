@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px)
+	header .logo
+		margin: auto
+	.grid-item
+		flex: 0 1 calc(50% - 30px / 2)
+		margin: auto
+	.grid__item-lookbook
+		margin: auto
+
+@media screen and (max-width: 600px)
+	.grid-item
+		flex: 0 1 100%
+
+	.article-box
+		flex: 0 1 100%
+		&__left,
+		&__right
+			padding: 0 10px
+
+@media (min-width: 768px)
+	.box-cart button i, .box-cart button .cart-total 
+    	display: none
+	
