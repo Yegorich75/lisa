@@ -80,7 +80,7 @@ gulp.task('scripts', function() {
             // Библиотеки
             'app/static/libs/jquery/jquery.min.js',
             'app/static/libs/magnific/jquery.magnific-popup.min.js',
-            'app/static/libs/bxslider/jquery.bxslider.min.js',
+            // 'app/static/libs/bxslider/jquery.bxslider.min.js',
             'app/static/libs/maskedinput/maskedinput.js',
             'app/static/libs/slick/slick.min.js',
             'app/static/libs/validate/jquery.validate.min.js'

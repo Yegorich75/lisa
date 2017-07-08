@@ -1,0 +1,42 @@
+include ../bemto/bemto.pug
+
+doctype html
+html(lang="ru-RU")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv='X-UA-Compatible', content="IE = edge")
+		meta(name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no")
+		meta(name="keywords" content="")
+		meta(name="author" content="Саламатин Анатолий")
+		link(rel="stylesheet" type='text/css' href="static/fonts/fonts.css")
+		link(rel="stylesheet" type='text/css' href="static/css/libs.min.css")
+		link(rel="stylesheet" type='text/css' href="static/css/main.min.css")
+		link(rel="stylesheet" type='text/css' href="static/css/media.min.css")
+		link(rel="stylesheet" type='text/css' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+		link(rel="stylesheet" type='text/css' href="../../static/libs/owlcarousel/animate.css")
+		link(rel="stylesheet" type='text/css' href="../../static/libs/owlcarousel/owl.carousel.min.css")
+		link(rel="stylesheet" type='text/css' href="../../static/libs/owlcarousel/owl.theme.default.css")
+
+		title
+			block title
+			
+	body.common-home
+		<!--[if lt IE 8]>
+		p.browsehappy
+			| You are using an <strong>outdated</strong> browser.
+			| Please <a href="http://browsehappy.com/">upgrade your browser</a>
+			| to improve your experience.
+		<![endif]-->
+		include ../common/header
+
+		include ../common/content
+
+		include ../common/footer
+		
+		script(src="static/js/libs.min.js")
+		script(src="static/js/main.js")
+		script(src="../../static/libs/jquery/jquery.min.js")
+		script(src="../../static/libs/bootstrap/bootstrap.min.js")
+		script(src="../../static/libs/owlcarousel/owl.carousel.min.js")
+		script(src="../../static/js/custom.js")
+
