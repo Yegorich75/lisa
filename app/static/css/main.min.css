@@ -8884,7 +8884,7 @@ button, .btn {
     background: #e8edf3;
     border: 1px solid #839cab; }
 
-.main, .banner, .collection, .tabs, .articles {
+.main, .banner, .collection, .tabs, .articles, .breadcrumb-block {
   width: 100%;
   min-width: 320px;
   max-width: 1140px;
@@ -9080,6 +9080,9 @@ header a {
   color: #000; }
   .breadcrumb > li:last-child span {
     color: #839cab; }
+
+.product_page-block {
+  width: 50%; }
 
 .nav {
   margin: 0; }
