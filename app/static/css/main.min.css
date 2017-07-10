@@ -9067,6 +9067,20 @@ header a {
   font-weight: 500;
   text-transform: uppercase; }
 
+.breadcrumb {
+  margin: 0 0 22px;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  letter-spacing: 1px;
+  background: none;
+  padding: 0;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #000; }
+  .breadcrumb > li:last-child span {
+    color: #839cab; }
+
 .nav {
   margin: 0; }
   .nav .toggle-cont {

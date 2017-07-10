@@ -1,0 +1,11 @@
+.breadcrumb {
+  margin: 0 0 22px;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  letter-spacing: 1px;
+  background: none;
+  padding: 0;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #000; }
