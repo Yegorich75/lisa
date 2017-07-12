@@ -9084,6 +9084,14 @@ header a {
 .product_page-block {
   width: 50%; }
 
+.fa-stack {
+  font-size: 16px;
+  line-height: 16px;
+  width: .7em;
+  height: 16px; }
+  .fa-stack i {
+    color: rgba(20, 20, 20, 0.3); }
+
 .nav {
   margin: 0; }
   .nav .toggle-cont {
