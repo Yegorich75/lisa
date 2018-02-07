@@ -1,34 +1,40 @@
 footer
 	width: 100%
-	margin: 40px auto 0
 	padding: 50px
 	box-sizing: border-box
 	border-top: 40px solid #eaeaea
-	
 
-.footer-inner
-	width: 1140px
-	margin: auto
-	display: flex
-	justify-content: space-between
+.footer
+	background: #f8f8f8
+	&-inner
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+		width: 1140px
+		margin: 40px auto 0
+	&-block
+		margin: 0 auto 40px
+		width: 200px
+		h4 
+			text-transform: uppercase
+			font-size: 14px
+			color: #a59189
+			letter-spacing: 1.5px
+			margin-bottom: 10px
+		ul.sf-menu
+			li 
+				a 
+					padding: 0
+					text-transform: none
+					background: none
+					color: #4a4a4a
+					font-size: 14px
+					font-weight: 400
+					line-height: 24px
+					&:hover
+						text-decoration: underline
 
-.footer-block
-	width: 25%
-	h4 
-		text-transform: uppercase
-		font-size: 14px
-		letter-spacing: 1.5px
-		margin-bottom: 26px
-	ul.sf-menu
-		li 
-			a 
-				padding: 0
-				text-transform: none
-				background: none
-				color: #4a4a4a
-				font-size: 14px
-				font-weight: 400
-				line-height: 24px
+
 
 #newsletter-button
 	margin-top: 20px
